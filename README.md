@@ -9,35 +9,7 @@ this is a proof of concept for pasting an HTML table to Excel and dropping in fo
 <li>Currently <b>C</b> tells it that we want a column. With <b>C+</b> indicating columns to the right and <b>C-</b> indicating columns to the left. <b>CA</b> indicates we want the column with that exact id</li>
 </ul>
 
-<style type="text/css">
-#rt_1  .hidden_column {
-    display:none;
-}
-.RT_paste_bin {
- height:1px;
- width:1px; 
- overflow:hidden;
-}
-.RT_paste_bin .header_TR TD {
-    color:#000;
-    font-weight:bold;
-}
-.RT_paste_bin .analysis_TR TD {
- color:#00f;
- font-weight:bold;
-}
-.RT_paste_button {
-	position:absolute;
-	right:2%;
-	top:-20px;
-}
-.rt_DIV_outer , .rt_DIV_inner {
-	position:relative;
-}
 
-</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://github.com/virmaior/PasteHTMLtoXLS/report_tools.js"></script>
 
 
 <h1>Here is Our Table</h1>
@@ -52,7 +24,7 @@ this is a proof of concept for pasting an HTML table to Excel and dropping in fo
 <tr class="analysis_TR"><td>Rows: 36</td><td>N/A</td><td class="hidden_column">Ave:0.94<br>Max:1.00<br>Min:0.00</td><td>Ave:0.94<br>Max:1.00<br>Min:0.00</td><td>Ave:94.44<br>Max:100.00<br>Min:0.00</td><td>Ave:14.17<br>Max:15.00<br>Min:0.00</td><td class="hidden_column">Ave:0.96<br>Max:1.00<br>Min:0.00</td><td>Ave:1.93<br>Max:2.00<br>Min:0.00</td><td>Ave:96.39<br>Max:100.00<br>Min:0.00</td><td>Ave:9.64<br>Max:10.00<br>Min:0.00</td><td class="hidden_column">Ave:0.00<br>Max:0.00<br>Min:0.00</td><td class="hidden_column">Ave:0.00<br>Max:0.00<br>Min:0.00</td><td class="hidden_column">Ave:0.00<br>Max:0.00<br>Min:0.00</td><td>Ave:0.00<br>Max:0.00<br>Min:0.00</td><td>Ave:0.00<br>Max:0.00<br>Min:0.00</td><td>Ave:0.00<br>Max:0.00<br>Min:0.00</td><td class="hidden_column">Ave:139.47<br>Max:238.00<br>Min:0.00</td><td class="hidden_column">Ave:12.31<br>Max:18.00<br>Min:0.00</td><td>Ave:151.78<br>Max:254.00<br>Min:0.00</td><td>Ave:97.92<br>Max:163.87<br>Min:0.00</td><td>Ave:39.17<br>Max:65.55<br>Min:0.00</td><td class="hidden_column">Ave:2.86<br>Max:12.00<br>Min:-3.00</td><td class="hidden_column">Ave:2.94<br>Max:4.00<br>Min:0.00</td><td>Ave:5.81<br>Max:16.00<br>Min:-1.00</td><td>Ave:58.06<br>Max:160.00<br>Min:-10.00</td><td>Ave:2.90<br>Max:8.00<br>Min:-0.50</td><td>Ave:65.88<br>Max:98.55<br>Min:0.00</td><td>N/A</td></tr>
 </tbody></table>
 
+<i> unfortunately github won't let it demonstrate because it needs CSS and JQuery and a few additional functions </i>
 
-</ul>
 </body>
 </html>
